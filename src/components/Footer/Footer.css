@@ -1,0 +1,34 @@
+.footer{
+    bottom: 0;
+    position: absolute;
+    display:inline-flex;
+    flex-wrap: wrap;
+    background-color: #202027;
+    list-style-type: none;
+    justify-content: space-between;
+   text-align: center;
+   
+  }
+
+  .Container{
+    
+    background-color: #202027;
+
+  }
+
+  .footerLink{
+    display:inline-flex;
+    justify-content: space-evenly;
+    color: #fff;
+    
+}
+.footerLink a {
+    display: inline-flex;
+    padding: 2px 20px 2px 7px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: #202027;
+    
+ }
+

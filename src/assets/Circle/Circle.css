@@ -1,0 +1,16 @@
+.Circle{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    
+}
+
+.Circle .Blue{
+background-color: blue; 
+color: white; 
+}
+
+.Circle .Pink{
+    background-color: fuchsia; 
+    color: white; 
+    }

@@ -16,6 +16,13 @@
 
   }
 
+  ul{
+    display:inline-flex;
+    background-color: #202027;
+    justify-content: space-evenly;
+    
+  }
+
   .footerLink{
     display:inline-flex;
     justify-content: space-evenly;
@@ -28,7 +35,7 @@
     text-align: center;
     color: #fff;
     text-decoration: none;
-    background-color: #202027;
-    
+    background-color: #202027;   
+    justify-content: space-between;
  }
 

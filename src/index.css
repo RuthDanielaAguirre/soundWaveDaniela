@@ -10,84 +10,177 @@
   color: #fff;
 }
 
+.home-container{
+  height: 100vh;
+}
+.uno{
+  display: none;
+}
 
-/* 
-*{
-  margin: 0;
-  display: flex;
-  place-items: center;
-  background-color:#2F303A
-} */
+.home-title{
+display:flex wrap;
+align-items: center;
+
+} 
+
+.girl-con{
+  display: none;
+}
+
+.girl-image{
+  display: none;
+}
+
+
+
+.title{
+ 
+    left: 80%;
+    padding-left: 20%;
+    padding-top: 33%;
+    display: flex table-column;
+  
+}
+
+
+h1{
+  font-size: 2em;
+}
+
+.circle1 {
+  position: fixed;
+  bottom: -20%;
+  left: 80%;
+  width: 21rem;
+  height: 21rem;
+  background-color: #3457b21a;
+  border-radius: 50%;
+}
+
+.circle2 {
+  position: fixed;
+  top: 10%;
+  left: 33%;
+  width: 10rem;
+  height: 10rem;
+  background-color: #3457b21a;
+  border-radius: 50%;
+}
+ 
+
+.circle3 {
+  position: fixed;
+  bottom: 6%;
+  left: 3%;
+  width: 10rem;
+  height: 10rem;
+  background-color: #bc3a801a;
+  border-radius: 50%;
+}
+  
+
 
 .ms-auto{
   color:white;
 }
 
-/* :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.discover-cont{
+  padding-top: 8%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+.covers{
+  width: 70%;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@media (min-width: 768px) {
+  .uno{
+    display: flex;
   }
-  a:hover {
-    color: #747bff;
+  
+  .home-container{
+    display:flex wrap;
+    flex-direction: row;
+    gap: 1.25rem;
   }
-  button {
-    background-color: #f9f9f9;
+  
+  .girl-image{
+   
+    display: flex;
+
+    bottom: 6%;
+    left: 3%;
+    
   }
-} */
+
+  .title{
+    left: 80%;
+    padding-left: 20%;
+    padding-top: 33%;
+    display: flex table-column;
+  }
+
+  .girl-con{
+    display: flex;
+    position: relative;
+    padding-left: 10%;
+    
+  }
+
+
+
+  h1{
+    font-size: 3em;
+  }
+
+  .circle1 {
+    position: fixed;
+    bottom: -20%;
+    left: 80%;
+    width: 28rem;
+    height: 28rem;
+    background-color: #3457b21a;
+    border-radius: 50%;
+  }
+  
+  .circle2 {
+    position: fixed;
+    top: 10%;
+    left: 33%;
+    width: 21rem;
+    height: 21rem;
+    background-color: #3457b21a;
+    border-radius: 50%;
+  }
+   
+  }
+  .circle3 {
+    position: fixed;
+    bottom: 6%;
+    left: 5%;
+    width: 20rem;
+    height: 20rem;
+    background-color: #bc3a801a;
+    border-radius: 50%;
+    
+}
+
+.discovertitle{
+  padding-top: 20%;
+}
+
+.covers{
+  padding-top: 33%;
+}
+
+.join, .join1{
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.join1{
+  color:hsla(328, 100%, 50%, 0.953);
+}
+
+.jointitle{
+  padding-top: 15%;
+}

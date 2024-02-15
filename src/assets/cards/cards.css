@@ -1,0 +1,10 @@
+.cards{
+   width: 4rem;
+   height: 4rem;
+   
+}
+
+h5, h6{
+    color: #fff;
+    background-color: #bc3a801a;
+}

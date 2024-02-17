@@ -1,5 +1,5 @@
 import { Card } from 'react-bootstrap';
-import micro from '../microphone.svg'
+import micro from '../../assets/microphone.svg'
 
 export function MicroCard() {
     return (

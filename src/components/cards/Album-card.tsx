@@ -1,5 +1,5 @@
 import './cards.css'
-import Albums from '../albums.svg'
+import Albums from '../../assets/albums.svg'
 
 import Card from 'react-bootstrap/Card';
 

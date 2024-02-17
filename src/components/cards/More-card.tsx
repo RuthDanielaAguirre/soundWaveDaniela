@@ -1,5 +1,5 @@
 import { Card } from 'react-bootstrap';
-import more from '../more.svg'
+import more from '../../assets/more.svg'
 
 export function MoreCard() {
     return (

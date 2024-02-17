@@ -2,8 +2,7 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Footer } from '../components/Footer/Footer'
 import Covers from '../assets/covers.jpg'
-import AlbumCard from '../assets/cards/Album-card'
-import Cards from '../assets/cards/Cards'
+import Cards from '../components/cards/Cards'
 
 export const Discover = () => {
   return (
